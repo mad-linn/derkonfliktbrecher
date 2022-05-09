@@ -58,7 +58,7 @@
   --bs-body-bg: #fff;
 }
 
-*, *::before, *::after {
+*, *::before, *::after, li {
   box-sizing: border-box;
 }
 
@@ -169,11 +169,13 @@ address {
 
 ol, ul {
   padding-left: 2rem;
+  /*color: #b58b6e;*/
 }
 
 ol, ul, dl {
   margin-top: 0;
   margin-bottom: 1rem;
+  /*color: #b58b6e;*/
 }
 
 ol ol, ul ul, ol ul, ul ol {
@@ -13857,7 +13859,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #0d6efd;
+  color: #b58b6e;
 }
 
 blockquote {
